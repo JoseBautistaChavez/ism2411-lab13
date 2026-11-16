@@ -15,12 +15,19 @@ print(df.dtypes)
 
 #--- Exercise 2 ---
 print("--- Exercise 2 ---")
+south = df[df['region'] == 'South']
+print(len(south))
+print(south.head())
 
 #--- Exercise 3 ---
 print("--- Exercise 3 ---")
+print(df.sort_values('revenue', ascending=False).head(5))
 
 #--- Exercise 4 ---
 print("--- Exercise 4 ---")
+big_south = df[(df['region']=='South') & (df['revenue']>1000)]
+print(len(big_south))
+print(big_south.head())
 
 #--- Exercise 5 ---
 print("--- Exercise 5 ---")
