@@ -31,9 +31,14 @@ print(big_south.head())
 
 #--- Exercise 5 ---
 print("--- Exercise 5 ---")
+df['per_unit'] = df['revenue'] / df['quantity']
+print(df.head())
+print(df['per_unit'].mean())
 
 #--- Exercise 6 ---
 print("--- Exercise 6 ---")
+print(df['region'].unique())
+print(df['region'].value_counts())
 
 #--- Exercise 7 ---
 print("--- Exercise 7 ---")
