@@ -42,9 +42,11 @@ print(df['region'].value_counts())
 
 #--- Exercise 7 ---
 print("--- Exercise 7 ---")
+new = df[['region', 'product', 'revenue']]
+print(new.shape)
 
 #--- Exercise 8 ---
 print("--- Exercise 8 ---")
-
+df.to_csv('data/explored.csv', index=False)
 
 
