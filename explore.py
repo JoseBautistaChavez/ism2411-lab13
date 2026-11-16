@@ -1,8 +1,9 @@
 # Self Reflection Questions
-# 1.
-# 
-# 
-# 
+# 1. A boolean filter checks every row to see if a certain condition is True, and hides rows that don't meet it.
+# 2. Single brackets form a single column table or series (1D) while double brackets form a 2D dataframe. This
+#    distinction matters when working with large datasets for machines which require only either type.
+# 3. Pandas can handle much larger datasets than Excel and allows code to be run automatically, making the
+#    process much more efficient.
 
 #--- Exercise 1 ---
 print("--- Exercise 1 ---")
