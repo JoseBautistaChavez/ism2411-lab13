@@ -3,4 +3,4 @@
 Jose Bautista-Chavez
 
 To run this project:
-python.explore.py
+python explore.py
